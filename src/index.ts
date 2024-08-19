@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-type Task = {
+interface Task {
     title: string;
     date: string;
     completed: boolean
