@@ -9,7 +9,7 @@ body {
 }
 
 .form-container {
-  width: 500px;
+  width: 400px;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(8px); 
@@ -30,6 +30,17 @@ body {
 
 .errorTxt {
   font-size: small;
+}
+
+#taskList{
+  width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; 
+  
+
 }
 
 
